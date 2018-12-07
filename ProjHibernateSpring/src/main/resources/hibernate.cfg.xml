@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- 顯示實際操作資料庫時的SQL -->
+		<property name="show_sql">true</property>
+		<!-- 將顯示的SQL排版，方便觀看 -->
+		<property name="format_sql">true</property>
+		<!-- <property name="dialect">org.hibernate.dialect.SQLServerDialect</property> -->
+		<!-- <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property> -->
+		<!-- <property name="connection.url">jdbc:mysql://localhost:3306/TestDB</property> -->
+		<!-- <property name="connection.username">root</property> -->
+		<!-- <property name="connection.password">yunyu810917</property> -->
+		<!-- <property name="current_session_context_class">thread</property> -->
+		<!-- 以下設置物件與資料庫表格映射文件 -->
+		<!-- <mapping class="model.CustomerBean" /> -->
+		<!-- <mapping class="model.ProductBean" /> -->
+
+	</session-factory>
+</hibernate-configuration>
