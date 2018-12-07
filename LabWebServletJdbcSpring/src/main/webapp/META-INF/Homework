@@ -1,0 +1,8 @@
+1. 設定DataSource
+
+2.
+/secure/login.jsp	----->	/secure/login.controller	---->登入成功，呼叫/index.jsp
+				controller.LoginServlet		---->登入失敗，呼叫/secure/login.jsp
+3.
+/pages/product.jsp	----->	/pages/product.controller	---->insert，update，delete，呼叫/pages/product.jsp
+				controller.ProductServlet	---->select，呼叫/pages/display.jsp
